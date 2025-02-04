@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Checklist</title>
+    <link rel="icon" href="list.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Minha Checklist</h1>
+        <div id="add-list" class="mb-4">
+            <div class="input-group">
+                <input type="time" name="hour" id="time" placeholder="Hora">
+                <input type="date" name="dat" id="date" placeholder="Data">
+                <input type="text" class="form-control" id="tarefa" placeholder="Adicione uma tarefa">
+                <button class="btn btn-primary" id="add" onclick="adicionar()">Adicionar</button>
+            </div>
+        </div>
+        <section>
+            <div id="data">
+              <div id="compromissos">
+                <div id="res"></div>
+              </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

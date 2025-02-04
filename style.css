@@ -1,0 +1,52 @@
+.tarefa-texto {
+    font-size: 30px;
+    margin-top: 4px; /* Ajuste de alinhamento do texto */
+  }
+
+  /* Estilo da data */
+  .data-tarefa {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Cor de fundo azul */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para a borda e fundo do grupo de tarefas */
+  .grupo-tarefas {
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+  }
+
+  /* Estilo das tarefas */
+  .tarefa {
+    background-color: #e9ecef; /* Fundo das tarefas */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borda leve para as tarefas */
+    display: flex;
+    align-items: center; /* Alinha checkbox e texto */
+  }
+
+  .tarefa-concluida {
+    background-color: #cebbfd; /* Cor de fundo para tarefa concluída */
+    text-decoration: line-through; /* Riscar a tarefa */
+  }
+
+  .removis {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Ajuste para a posição da checkbox */
+  .checkbox-tarefa {
+    margin-top: 4px; /* Ajuste para abaixar a checkbox */
+    margin-right: 10px; /* Espaço entre checkbox e texto */
+  }
